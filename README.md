@@ -8,12 +8,11 @@
 
 It features a custom graphics engine that translates Android **AGSL Shaders** into **WebGL** code, ensuring your website looks exactly 1:1 like the app preview.
 
-<!-- СКРИНШОТЫ -->
 <p align="center">
-  <img src="screenshots/editor.png" width="24%" />
-  <img src="screenshots/shaders.png" width="24%" />
-  <img src="screenshots/preview.png" width="24%" />
-  <img src="screenshots/web.png" width="24%" />
+  <img src="screenshots/editor.jpg" width="24%" />
+  <img src="screenshots/shaders.jpg" width="24%" />
+  <img src="screenshots/preview.jpg" width="24%" />
+  <img src="screenshots/web.jpg" width="24%" />
 </p>
 
 ## ✨ Features
