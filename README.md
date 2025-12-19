@@ -3,13 +3,12 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple?logo=kotlin)
 ![Compose](https://img.shields.io/badge/Jetpack%20Compose-Material3-blue?logo=android)
 ![Platform](https://img.shields.io/badge/Platform-Android-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
-**BioTools** is a powerful "No-Code" Android application that allows users to create, customize, and deploy personal bio websites (link-in-bio) directly to **GitHub Pages**. 
+**BioTools** is a powerful "No-Code" Android application that allows you to create, customize, and deploy personal bio websites (link-in-bio) directly to **GitHub Pages**.
 
-It features a custom graphics engine that translates Android **AGSL Shaders** into **WebGL** code, ensuring the website looks exactly 1:1 like the app preview.
+It features a custom graphics engine that translates Android **AGSL Shaders** into **WebGL** code, ensuring your website looks exactly 1:1 like the app preview.
 
-<!-- ВСТАВЬ СЮДА СКРИНШОТЫ (См. инструкцию ниже) -->
+<!-- СКРИНШОТЫ -->
 <p align="center">
   <img src="screenshots/editor.png" width="24%" />
   <img src="screenshots/shaders.png" width="24%" />
@@ -22,24 +21,32 @@ It features a custom graphics engine that translates Android **AGSL Shaders** in
 ### 🎨 Visual Engine
 *   **Live Shaders:** Real-time backgrounds (Matrix Rain, Digital Noise) powered by **AGSL** (Android) and **WebGL** (Web).
 *   **Customizable:** Adjust speed, zoom, colors, and border radius instantly.
-*   **Code Editor:** Built-in shader code editor for advanced users.
+*   **Code Editor:** Write your own GLSL shader effects.
 
 ### 🔗 Content Management
 *   **Link Editor:** Add links with custom icons (upload your own) or presets.
 *   **Smart Styling:** Choose between Fill, Outline, and Glassmorphism button styles.
-*   **Drag & Drop:** Reorder links easily.
+*   **Sortable:** Easily reorder your links.
 
 ### ☁️ Cloud & Deploy
 *   **GitHub Integration:** Full OAuth 2.0 login.
-*   **One-Click Publish:** Automatically creates a repo, uploads `index.html`, and enables **GitHub Pages**.
-*   **Sync:** Saves `config.json` to the cloud. Restore your profile on any device.
+*   **One-Click Publish:** Automatically creates a repo, uploads `index.html` + `config.json`, and enables **GitHub Pages**.
+*   **Sync:** Restore your profile settings on any device via GitHub.
 
 ### 🧩 Widgets
-*   **Last.fm:** Shows current playing track (Real-time).
-*   **GitHub Graph:** Displays your contribution calendar.
+*   **Last.fm:** Real-time music widget showing your current track.
+*   **GitHub Graph:** Displays your contribution calendar on your site.
 *   **SEO:** Custom meta tags and descriptions.
 
-## 🛠 Tech Stack
+## 📥 How to Install
+
+1.  Go to the **[Releases](../../releases)** page of this repository.
+2.  Download the latest **`BioTools.apk`** file.
+3.  Open the file on your Android device.
+4.  If prompted, allow installation from unknown sources.
+5.  Launch the app and start building your site!
+
+## 🛠 Tech Stack (Under the hood)
 
 *   **Language:** Kotlin
 *   **UI:** Jetpack Compose (Material 3)
@@ -51,24 +58,5 @@ It features a custom graphics engine that translates Android **AGSL Shaders** in
     *   Web Export: Custom GLSL generator for WebGL
 *   **Image Loading:** Coil (GIF support)
 
-## 🚀 How to Build
-
-1.  Clone the repository.
-2.  Open in **Android Studio**.
-3.  **Important:** You need to provide your own API Keys.
-    *   Go to `data/network/GitHubConstants.kt` and add your **GitHub Client ID/Secret**.
-    *   Go to `generator/HtmlGenerator.kt` and add your **Last.fm API Key**.
-4.  Build and Run.
-
-## 📱 Screenshots
-
-| Editor | Matrix Effect | Preview Mode | Generated Site |
-|:---:|:---:|:---:|:---:|
-| <img src="screenshots/editor.png" width="200"/> | <img src="screenshots/shaders.png" width="200"/> | <img src="screenshots/preview.png" width="200"/> | <img src="screenshots/web.png" width="200"/> |
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
-*Created with ❤️ by [Str@ct](https://github.com/Str1ct-android)*
+*Created with ❤️ by [STR@CT](https://github.com/Str1ct-Android)*
