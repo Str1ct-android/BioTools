@@ -71,4 +71,4 @@ It features a custom graphics engine that translates Android **AGSL Shaders** in
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-*Created with ❤️ by [Your Name](https://github.com/Str1ct-android)*
+*Created with ❤️ by [Str@ct](https://github.com/Str1ct-android)*
